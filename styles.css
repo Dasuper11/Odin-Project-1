@@ -30,6 +30,11 @@ li{
 }
 .title-card{
     padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.title-text{
+    max-width: 300px ;
 }
 
 /*----------Content-----------*/
@@ -53,9 +58,48 @@ flex-direction: column;
 }
 .testimonial{
     display: flex;
-    
+    padding: 50px 150px;
+    background-color: #E5E7EB;
 }
-
-
+.name{
+    display: flex;
+    justify-content: flex-end;
+}
+/*------------Ending----------*/
+.call{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 75px;
+    background-color: #3882F6;
+    padding: 40px 20px;
+}
+.call-container{
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+/*------Buttons and Borders----------*/
+.border{
+    border-radius: 8px;
+}
+.button, .button-2{
+    background-color: #3882F6;
+    height: 25px;
+    width: 90px;
+}
+.button{
+    border: none;
+}
+.button-2{
+    border: 2px solid #E5E7EB;
+}
+.img-border{
+    border: 2px solid #3882F6;
+}
 
 
